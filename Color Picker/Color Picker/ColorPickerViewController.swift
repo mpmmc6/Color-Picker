@@ -19,7 +19,7 @@ class ColorPickerViewController: UIViewController, UIPickerViewDataSource, UIPic
     @IBOutlet weak var colorLabel: UILabel!
     
     
-    let startIndex = 2
+    let startIndex = 0
     
    let colors =    [Color (name:"Red", uiColor: UIColor.red),
                      Color (name:"Orange", uiColor: UIColor.orange),
